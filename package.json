@@ -1,6 +1,6 @@
 {
 	"name": "ratelite",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple, modern, and flexible Redis-based rate limiter for Express.js — built for real-world APIs, SaaS, and edge-compatible environments. ",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
