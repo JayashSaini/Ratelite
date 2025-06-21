@@ -15,7 +15,7 @@ A simple, modern, and flexible Redis-based rate limiter for Express.js, designed
 ## Installation
 
 ```bash
-npm install ratelite express @upstash/redis
+npm install ratelite express
 ```
 
 ## Quick Start
