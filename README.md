@@ -1,4 +1,4 @@
-# Limiter
+# Ratelite
 
 A simple, modern, and flexible Redis-based rate limiter for Express.js, designed for serverless functions, edge environments, and traditional Node.js applications.
 
@@ -15,7 +15,7 @@ A simple, modern, and flexible Redis-based rate limiter for Express.js, designed
 ## Installation
 
 ```bash
-npm install limiter express @upstash/redis
+npm install ratelite express @upstash/redis
 ```
 
 ## Quick Start
@@ -24,7 +24,7 @@ Create a new Upstash Redis database at [upstash.com](https://upstash.com) and ge
 
 ```typescript
 import express from "express";
-import { createRateLimiter } from "limiter";
+import { createRateLimiter } from "ratelite";
 
 const app = express();
 
@@ -64,7 +64,7 @@ The `createRateLimiter` function accepts the following options:
 
 ### Custom Key Generation
 
-By default, the limiter uses the client's IP address (`req.ip`). You can provide a custom `keyFn` to use a different identifier, such as an API key or user ID.
+By default, the ratelite uses the client's IP address (`req.ip`). You can provide a custom `keyFn` to use a different identifier, such as an API key or user ID.
 
 ```typescript
 const rateLimiter = createRateLimiter({
