@@ -1,0 +1,41 @@
+{
+	"name": "limiter",
+	"version": "1.0.0",
+	"description": "A simple, modern, and flexible Redis-based rate limiter for Express.js — built for real-world APIs, SaaS, and edge-compatible environments. ",
+	"main": "./dist/index.js",
+	"type": "module",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "tsc && node dist/index.js",
+		"lint": "eslint . --ext .ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JayashSaini/limiter.git"
+	},
+	"keywords": [
+		"typescript",
+		"node.js",
+		"express.js",
+		"upstash/redis",
+		"npm"
+	],
+	"author": "Jayash Saini",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/JayashSaini/limiter/issues"
+	},
+	"homepage": "https://github.com/JayashSaini/limiter#readme",
+	"devDependencies": {
+		"@eslint/js": "^9.29.0",
+		"@types/express": "^4.17.1",
+		"eslint": "^9.29.0",
+		"globals": "^16.2.0",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.34.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
