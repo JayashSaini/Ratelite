@@ -32,7 +32,7 @@
 	"bugs": {
 		"url": "https://github.com/JayashSaini/Ratelite/issues"
 	},
-	"homepage": "https://github.com/JayashSaini/Ratelite#readme",
+	"homepage": "https://ratelite.vercel.app",
 	"devDependencies": {
 		"@eslint/js": "^9.29.0",
 		"@types/express": "^4.17.23",
